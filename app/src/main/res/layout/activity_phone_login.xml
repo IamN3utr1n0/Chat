@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneLogin"
+    android:id="@+id/sendmsglayout"
+    android:background="@drawable/bgsplash"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/sendsmsid"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/first" />
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="20dp"
+        android:text="Enter your mobile no with your country code"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/mobilenofield"
+        android:layout_width="316dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+       android:layout_marginTop="400dp"
+        android:background="@drawable/textfielld"
+        android:padding="10dp"
+        android:hint="e.g +9187654****9"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/sendotpbutton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="100dp"
+        android:background="@drawable/button"
+        android:text="Send OTP"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/otpimge"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/msg" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="303dp"
+            android:layout_marginEnd="20dp"
+            android:text="Enter OTP sent to your mobile no"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/otpfield"
+            android:layout_width="316dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/textfielld"
+            android:padding="10dp"
+            android:hint="e.g * * * * * *"
+            android:drawableLeft="@drawable/ic_speaker_notes_black_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/verifybutton"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/button"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="25dp"  />
+
+
+
+
+
+
+
+</RelativeLayout>

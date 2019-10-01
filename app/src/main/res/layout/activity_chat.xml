@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity"
+ >
+    <include
+        android:id="@+id/chat_toolbar"
+        layout="@layout/app_bar_layout"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/private_msg_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/chat_toolbar"
+     android:layout_above="@id/chat_send_layout"
+        ></android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/chat_send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        >
+        <EditText
+            android:id="@+id/input_msg"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/textfielld"
+            android:hint="Write message here"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:paddingStart="25dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/send_msg_btn"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_send_black_24dp"
+            android:background="#07279B"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

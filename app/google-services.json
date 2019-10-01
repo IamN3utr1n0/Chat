@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "285301815973",
+    "firebase_url": "https://coders-text.firebaseio.com",
+    "project_id": "coders-text",
+    "storage_bucket": "coders-text.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285301815973:android:2394492f28761609",
+        "android_client_info": {
+          "package_name": "com.example.coderstext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285301815973-84muhsvh6s7e28aq0cne3mb9a5sljck5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coderstext",
+            "certificate_hash": "577810fa575242b973494b71dde97a5c6ec63c38"
+          }
+        },
+        {
+          "client_id": "285301815973-2jbf6so1djrb7ina0u7dlvck72s9oeru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coderstext",
+            "certificate_hash": "ca8ab9d9cff852679f19cf130c87cac060915b9d"
+          }
+        },
+        {
+          "client_id": "285301815973-r7lo7kfu11cd06og9bs1bhl58fg9e40m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwv2vmVR8gJc77PaG7W-N4CLV8Ea52zTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285301815973-r7lo7kfu11cd06og9bs1bhl58fg9e40m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
